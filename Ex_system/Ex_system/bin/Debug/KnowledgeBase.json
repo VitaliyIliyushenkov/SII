@@ -1,0 +1,114 @@
+{
+  "rules": [
+    {
+      "conditions": {
+        "temperature": "высокая",
+        "cough": "влажный",
+        "headache": "сильная",
+        "fatigue": "сильная",
+        "throatPain": "есть"
+      },
+      "diagnosis": "Ангина",
+      "recommendation": "Обратитесь к терапевту. Возможно, потребуется антибиотик."
+    },
+    {
+      "conditions": {
+        "temperature": "нормальная",
+        "runnyNose": "сильный",
+        "fatigue": "легкая",
+        "cough": "нет",
+        "drowsiness": "нет"
+      },
+      "diagnosis": "Простуда",
+      "recommendation": "Пейте больше жидкости, отдыхайте."
+    },
+    {
+      "conditions": {
+        "temperature": "субфебрильная",
+        "headache": "сильная",
+        "cough": "сухой",
+        "fatigue": "сильная",
+        "drowsiness": "есть"
+      },
+      "diagnosis": "Грипп",
+      "recommendation": "Принимайте противовирусные препараты, оставайтесь дома."
+    },
+    {
+      "conditions": {
+        "temperature": "очень высокая",
+        "cough": "частый",
+        "headache": "легкая",
+        "fatigue": "легкая",
+        "drowsiness": "нет"
+      },
+      "diagnosis": "Пневмония",
+      "recommendation": "Срочно обратитесь к врачу."
+    },
+    {
+      "conditions": {
+        "temperature": "нормальная",
+        "cough": "нет",
+        "headache": "нет",
+        "fatigue": "нет",
+        "throatPain": "нет"
+      },
+      "diagnosis": "Здоров",
+      "recommendation": "Нет необходимости в лечении."
+    },
+    {
+      "conditions": {
+        "temperature": "высокая",
+        "cough": "влажный",
+        "headache": "нет",
+        "fatigue": "сильная",
+        "throatPain": "нет"
+      },
+      "diagnosis": "Бронхит",
+      "recommendation": "Проконсультируйтесь с пульмонологом."
+    },
+    {
+      "conditions": {
+        "temperature": "субфебрильная",
+        "cough": "сухой",
+        "headache": "легкая",
+        "fatigue": "легкая",
+        "runnyNose": "слабый"
+      },
+      "diagnosis": "ОРВИ",
+      "recommendation": "Примите витамины, отдохните."
+    },
+    {
+      "conditions": {
+        "temperature": "нормальная",
+        "cough": "сухой",
+        "headache": "нет",
+        "fatigue": "нет",
+        "throatPain": "есть"
+      },
+      "diagnosis": "Фарингит",
+      "recommendation": "Полощите горло, избегайте холодных напитков."
+    },
+    {
+      "conditions": {
+        "temperature": "субфебрильная",
+        "cough": "влажный",
+        "headache": "нет",
+        "fatigue": "легкая",
+        "throatPain": "есть"
+      },
+      "diagnosis": "Ларингит",
+      "recommendation": "Избегайте голосовой нагрузки, пейте тёплый чай."
+    },
+    {
+      "conditions": {
+        "temperature": "очень высокая",
+        "cough": "частый",
+        "headache": "сильная",
+        "fatigue": "сильная",
+        "drowsiness": "сильная"
+      },
+      "diagnosis": "Сепсис",
+      "recommendation": "Немедленно вызовите скорую помощь."
+    }
+  ]
+}
